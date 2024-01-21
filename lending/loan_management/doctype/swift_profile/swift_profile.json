@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_rename": 1,
+ "autoname": "format:SU/{YY}/{MM}/{#####}",
+ "creation": "2024-01-21 14:16:26.428437",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_vsyx",
+  "full_name",
+  "column_break_tgnx",
+  "phone_number",
+  "section_break_pknr",
+  "national_id_number",
+  "column_break_wmgt",
+  "upload_national_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_vsyx",
+   "fieldtype": "Section Break",
+   "label": "SWIFT PROFILE"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "column_break_tgnx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "section_break_pknr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "national_id_number",
+   "fieldtype": "Data",
+   "label": "National ID Number"
+  },
+  {
+   "fieldname": "column_break_wmgt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "upload_national_id",
+   "fieldtype": "Attach Image",
+   "label": "Upload National ID"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-01-21 14:24:42.652247",
+ "modified_by": "Administrator",
+ "module": "Loan Management",
+ "name": "Swift Profile",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "show_name_in_global_search": 1,
+ "show_preview_popup": 1,
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "full_name",
+ "track_changes": 1
+}
